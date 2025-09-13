@@ -1,0 +1,19 @@
+.darkTheme {
+  --bg: #000000b2;
+  --bg-btn: #fff;
+  --color-txt-btn: #000;
+  --color-text: #fff;
+  --bg-dis: #fff;
+
+  --svg-invert: 0%;
+}
+
+.lightTheme {
+  --bg: #aaaaaab2;
+  --bg-btn: #000000;
+  --color-txt-btn: #ffffff;
+  --color-text: #000000;
+  --bg-dis: #000;
+
+  --svg-invert: 100%;
+}

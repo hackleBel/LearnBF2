@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  background-color: var(--bg);
+  color: var(--color-text);
+}
+
+.nav-btns {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.nav-set_content {
+  display: none;
+}
+
+.nav-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-btn {
+ width: 100px;
+}

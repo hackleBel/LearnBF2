@@ -1,0 +1,88 @@
+.map {
+  display: none;
+  justify-content: space-between;
+  height: 90vh;
+  color: #fff;
+}
+
+.map-hs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 420px;
+}
+
+.map-cards__hs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.map-card_link {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  width: 200px;
+  border: 1px solid rgb(0, 255, 255);
+  background-color: #000000c5;
+  cursor: pointer;
+}
+
+.map-hs-btn {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  height: 100%;
+  background-color: #000000c5;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.map-hs-img {
+  width: 70%;
+  max-height: 75%;
+  margin-top: 40px;
+  background-color: #000000c5;
+  border: 4px solid #000000c5;
+  cursor: pointer;
+}
+
+.map-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Стиль для кликабельных карт на мобильных */
+@media (max-width: 600px) {
+  .map-card_link {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .map-card_link:active {
+    transform: scale(0.95);
+  }
+}
