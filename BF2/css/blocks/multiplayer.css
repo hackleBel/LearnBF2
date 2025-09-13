@@ -1,0 +1,154 @@
+.multiplayer {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+.multiplayer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  min-height: 590px;
+  background-color: #000000c5;
+  border: 2px solid gray;
+  transition: 0.2s;
+}
+.multiplayer-card:hover {
+  filter: brightness(79%);
+}
+
+.multiplayer-card:hover {
+  border: 2px solid gray;
+  color: gray;
+}
+.multiplayer-card:hover .svg-img {
+  filter: grayscale(100%) brightness(0.2);
+}
+.multiplayer-card-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px 20px 20px;
+}
+
+.multiplayer-cards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.mult-img {
+  width: 100%;
+  filter: brightness(80%);
+}
+
+.multiplayer-back {
+  padding: 8px 18px;
+  margin: 40px 0;
+  background-color: #000000c5;
+  border: 1px solid #fff;
+  border-radius: 4px 16px 4px 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.multiplayer-back:hover {
+  color: gray;
+  border: 1px solid gray;
+}
+.multiplayer-back-menu {
+  display: flex;
+}
+.multiplayer-back_mult {
+  display: none;
+}
+.multiplayer-back_saber {
+  display: none;
+}
+
+.multiplayer-cards_saber {
+  display: none;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.multiplayer-hvv-play {
+  display: none;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.multiplayer-hero_showdown-play {
+  display: none;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.multiplayer-menu_hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 200px;
+  width: 440px;
+  min-height: 300px;
+  background-color: #000000c5;
+  border: 1px solid gray;
+}
+
+.multiplayer-menu_btn {
+  margin-top: 10px;
+  background-color: #000000c5;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px 20px 4px 4px;
+}
+
+.multiplayer-hero-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.multiplayer-hero-card-title {
+  height: 100%;
+  margin-top: 15px;
+}
+
+.multiplayer-menu_hero-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.multiplayer-list_hero {
+  max-height: 302px;
+  max-width: 100%;
+  background-color: #000000c5;
+  border: 1px solid gray;
+}
+
+.multiplayer-list_hero-jedi-images {
+  display: flex;
+  width: 100%;
+}
+.multiplayer-list_hero-sith-images {
+  display: flex;
+  width: 100%;
+}
+
+.hero-img-conteiner {
+  border: 1px solid gray;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.lvl-title {
+  width: 60px;
+}

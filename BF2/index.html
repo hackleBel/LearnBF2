@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/icon/Death_Star.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>LEARN BF2</title>
+  </head>
+  <body class="darkTheme">
+    <nav class="nav">
+      <div class="nav-left">
+        <a href="index.html"><h1 class="nav-title">LEARN BF2</h1></a>
+        <button class="nav-navigation">navigation</button>
+      </div>
+      <div class="nav-btns">
+        <button class="nav-btn nav-map" data-target=".map">map</button>
+        <button class="nav-btn nav-multiplayer" data-target=".multiplayer">
+          games
+        </button>
+        <!-- <button class="nav-btn nav-hero" data-target=".hero">hero</button> -->
+        <button class="nav-btn nav-mode" data-target=".mode">mode</button>
+        <button class="nav-btn nav-settings" data-target=".settings">
+          settings
+        </button>
+      </div>
+    </nav>
+    <header class="header container-head">
+      <h1>Chronology Star Wars</h1>
+      <div class="header-contant">
+        <div class="header-film">
+          <h1>Films And Series</h1>
+          <ul>
+            <h2>The distant past</h2>
+            <li>The Acolyte (2024)</li>
+            <li>Tales of the Jedi (2022)</li>
+          </ul>
+          <ul>
+            <h2>The era of the High Republic</h2>
+            <li>Young Jedi Adventures (2023)</li>
+          </ul>
+          <ul>
+            <h2>The era of the wars of clones</h2>
+            <li>Star Wars: Episode I - The Phantom Menace (1999)</li>
+            <li>Star Wars: Episode II - Attack of the Clones (2002)</li>
+            <li>Star Wars: The Clone Wars (2008-2020)</li>
+            <li>Star Wars: Episode III - Revenge of the Sith (2005)</li>
+            <li>Tales of the Jedi (2022)</li>
+          </ul>
+          <ul>
+            <h2>The era of the empire</h2>
+            <li>The Bad Batch (2021)</li>
+            <li>Solo: A Star Wars Story (2018)</li>
+            <li>Obi-Wan Kenobi (2022)</li>
+            <li>Star Wars Rebels (2014-2018)</li>
+            <li>Andor (2022)</li>
+            <li>Rogue One: A Star Wars Story (2016)</li>
+            <li>Star Wars: Episode IV - A New Hope (1977)</li>
+          </ul>
+          <ul>
+            <h2>The era of the uprising</h2>
+            <li>Star Wars: Episode V - The Empire Strikes Back (1980)</li>
+            <li>Star Wars: Episode VI - Return of the Jedi (1983)</li>
+          </ul>
+          <ul>
+            <h2>New Republic</h2>
+            <li>The Mandalorian (2019)</li>
+            <li>The Book of Boba Fett (2021)</li>
+            <li>Ahsoka (2023)</li>
+            <li>Skeleton Crew (2024)</li>
+          </ul>
+          <ul>
+            <h2>The era of the first order</h2>
+            <li>Star Wars Resistance (2018-2020)</li>
+            <li>Star Wars: Episode VII - The Force Awakens (2015)</li>
+            <li>Star Wars: Episode VIII - The Last Jedi (2017)</li>
+            <li>Star Wars: Episode IX - The Rise of Skywalker (2019)</li>
+          </ul>
+          <ul>
+            <h2>Non -canonical / alternative universes</h2>
+            <li>Star Wars: Visions (2021-2023)</li>
+            <li>Star Wars: The Lightsaber (2024)</li>
+          </ul>
+        </div>
+        <div class="header-comics">
+          <h1>Comics</h1>
+          <ul>
+            <h2>The era of the High Republic</h2>
+            <li>The High Republic (2021-2023)</li>
+            <li>The High Republic Adventures (2021-2023)</li>
+            <li>Trail of Shadows (2021-2022)</li>
+          </ul>
+          <ul>
+            <h2>The era of the wars of clones</h2>
+            <li>Darth Maul (2017)</li>
+            <li>Obi-Wan and Anakin (2016)</li>
+            <li>Age of Republic (2019)</li>
+            <li>Clone Wars Battle Tales (2020)</li>
+          </ul>
+          <ul>
+            <h2>The era of the empire</h2>
+            <li>Darth Vader (2017, 2020)</li>
+            <li>Star Wars (2015-2019, 2020)</li>
+            <li>Darth Maul: Son of Dathomir (2014)</li>
+            <li>Kanan (2015)</li>
+            <li>Jedi of the Republic - Mace Windu (2017)</li>
+            <li>Lando (2015)</li>
+            <li>Han Solo (2016)</li>
+            <li>Poe Dameron (2016-2018)</li>
+            <li>Doctor Aphra (2016)</li>
+            <li>Target Vader (2019)</li>
+            <li>ounty Hunters (2020)</li>
+          </ul>
+          <ul>
+            <h2>The era of the uprising</h2>
+            <li>Princess Leia (2015)</li>
+            <li>Chewbacca (2015)</li>
+            <li>Luke Skywalker (2016)</li>
+            <li>Star Wars: Shattered Empire (2015)</li>
+            <li>The Rise of Kylo Ren (2019-2020)</li>
+          </ul>
+          <ul>
+            <h2>The era of the New Republic</h2>
+            <li>Alphabet Squadron (2019-2020)</li>
+            <li>TIE Fighter (2019)</li>
+            <li>Shadow of the Sith (2022)</li>
+          </ul>
+          <ul>
+            <h2>The era of the first order</h2>
+            <li>The Force Awakens (2015-2016)</li>
+            <li>The Last Jedi (2017-2018)</li>
+            <li>The Rise of Skywalker (2019-2020)</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="map container">
+      <div class="map-hs">
+        <h3 style="color: aqua; font-family: sans-serif; font-weight: 500">
+          HERO SHOWDOWN
+        </h3>
+        <img src="" alt="" />
+        <div class="map-cards__hs">
+          <div class="map-cards__hs-content map-cards__hs-left">
+            <div class="map-card_link map-kamino">Kamino</div>
+            <div class="map-card_link map-tatooine_m">Tatooine Mos Eisley</div>
+            <div class="map-card_link map-nabo_h">Nabo Hangar Real</div>
+            <div class="map-card_link map-hoth">Hoth</div>
+            <div class="map-card_link map-takodana_c">
+              Takodana Castillo Maz
+            </div>
+            <div class="map-card_link map-death_star">Death Star ||</div>
+            <div class="map-card_link map-yavin">Yavin 4</div>
+            <div class="map-card_link map-starkiller">Base Starkiller</div>
+            <div class="map-card_link map-endor">Endor</div>
+            <div class="map-card_link map-kashyyyk">Kashyyyk</div>
+            <div class="map-card_link map-jakku_c">Jakku Cementerio</div>
+            <div class="map-card_link map-bespin">Bespin</div>
+          </div>
+          <div class="map-cards__hs-content map-cards__hs-right">
+            <div class="map-card_link map-palacio_de_jabba">
+              Palacio de Jabba
+            </div>
+            <div class="map-card_link map-kessel">Kessel</div>
+            <div class="map-card_link map-geonosis_t">Geonosis Tripa</div>
+            <div class="map-card_link map-ajan_kloss">Ajan Kloss</div>
+            <div class="map-card_link map-geonosis_d">Geonosis Dreadnought</div>
+            <div class="map-card_link map-nabo_s">Nabo Ship</div>
+            <div class="map-card_link map-felucia">Felucia</div>
+            <div class="map-card_link map-takodana_m">Takodana MC85</div>
+            <div class="map-card_link map-jakku_s">Jakku Ship</div>
+            <div class="map-card_link map-crait">Crait</div>
+            <div class="map-card_link map-scraif">Scraif</div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://cdn2.unrealengine.com/egs-starwarsbattlefrontiicelebrationedition-dice-g1a-01-1920x1080-87971829e831.jpg"
+        alt=""
+        class="map-hs-img map-hs-img-left"
+      />
+    </section>
+
+    <section class="multiplayer container">
+      <div class="multiplayer-cards multiplayer-cards_main" data-cards="main">
+        <div class="multiplayer-card multiplayer-supremacy">
+          <img src="images/icon/planets.svg" alt="" class="svg-img" />
+          <div
+            class="multiplayer-card-bottom multiplayer-card-bottom-supremacy"
+          >
+            <h1>SUPREMACY</h1>
+            <p>
+              Armies collide to dominate the battlefront in an open- ended
+              tug-of-war. Utilize a wide array of tactics, trooper classes,lang
+              vehicles, reinforcement units, and hero characters to attack and
+              defend strategic assets if this era-euthenic mode
+            </p>
+            <h5 class="mult-numb-players">16-40 PLAYERS</h5>
+          </div>
+        </div>
+
+        <div class="multiplayer-card multiplayer-hero_and_villains">
+          <img src="images/icon/saber.svg" alt="" class="svg-img" />
+          <div
+            class="multiplayer-card-bottom multiplayer-card-bottom-hero_and_villains"
+          >
+            <h1>HERO AND VILLAINS</h1>
+            <p>
+              Heroes and Villains clash in epic battles across cinematic eras
+            </p>
+            <h5 class="mult-numb-players">4-8 PLAYERS</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="multiplayer-cards multiplayer-cards_saber" data-cards="saber">
+        <div class="multiplayer-card multiplayer-hero_vs_villains">
+          <img src="images/img/cards/hvv.png" alt="" class="mult-img" />
+          <div class="multiplayer-card-bottom">
+            <h1>HEROES VS VILLAINS</h1>
+            <p>
+              Pit STAR WARS' greatest characters against one another if
+              four-on-four team battles, as the Light Side and Dark Side
+              collide!
+            </p>
+            <h5 class="mult-numb-players">8 PLAYERS</h5>
+          </div>
+        </div>
+
+        <div class="multiplayer-card multiplayer-hero_showdown">
+          <img
+            src="images/img/cards/hero_showdown.png"
+            alt=""
+            class="mult-img"
+          />
+          <div class="multiplayer-card-bottom">
+            <h1>HERO SHOWDOWN</h1>
+            <p>
+              STAR WARS' most iconic characters pair up againsteach other in
+              two-vs-two elimination showdowns. Even heroes must work together
+              to survive!
+            </p>
+            <h5 class="mult-numb-players">4 PLAYERS</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="multiplayer-hero_showdown-play">
+        <div class="multiplayer-menu_hero">
+          <div class="multiplayer-menu_hero-title">
+            <div>
+              <h1></h1>
+              <p></p>
+            </div>
+            <div><img class="lvl-title" src="images/img/heroes/lvl.png" alt="" /></div>
+          </div>
+          <div class="multiplayer-menu_hero-cards">
+            <div class="multiplayer-hero-cards">
+              <div class="multiplayer-hero-card-title">
+                <img
+                  class="multiplayer-hero-card-ability"
+                  src=""
+                  alt=""
+                />
+              </div>
+              <div class="multiplayer-hero-card-title">
+                <img
+                  class="multiplayer-hero-card-ability"
+                  src=""
+                  alt=""
+                />
+              </div>
+              <div class="multiplayer-hero-card-title">
+                <img
+                  class="multiplayer-hero-card-ability"
+                  src=""
+                  alt=""
+                />
+              </div>
+            </div>
+            <button class="multiplayer-menu_btn">EQUIP & UNLOCK CARDS</button>
+          </div>
+        </div>
+
+        <div class="multiplayer-list_hero">
+          <div class="multiplayer-list_hero-jedi-images">
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/jedi/LukeIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/jedi/LeiaIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/jedi/HanIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/jedi/ChewbaccaIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/jedi/LandoIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/jedi/ReyIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/jedi/YodaIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/jedi/FinnIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/jedi/ObiIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/jedi/AnakinIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/jedi/BB-8Icon.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="multiplayer-list_hero-sith-images">
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/sith/VaderIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/sith/PalpatineIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/sith/FettIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/sith/BosskIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/sith/IdenIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/sith/MaulIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/sith/KyloIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/sith/PhasmaIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/sith/GrievousIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/sith/DookuIcon.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-img-conteiner">
+              <img
+                class="hero-img"
+                src="images/img/heroes/sith/BB-9EIcon.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="multiplayer-hvv-play"></div>
+
+      <div class="multiplayer-back multiplayer-back-menu">BACK</div>
+      <div class="multiplayer-back multiplayer-back_saber">BACK</div>
+      <div class="multiplayer-back multiplayer-back_mult">BACK</div>
+    </section>
+
+    <section class="hero container"></section>
+
+    <section class="mode container">
+      <div class="mode-modes">
+        <div class="mode-links" id="mode-link">
+          <a href="#mode-map-link"><h1>modes for map</h1></a>
+          <a href="#mode-game-link"><h1>modes for game</h1></a>
+          <a href="#mode-hero-link"><h1>modes for hero</h1></a>
+          <a href="#mode-interface-link"><h1>modes for interface</h1></a>
+        </div>
+        <a href="#mode-link"><button class="mode-up_btn">above</button></a>
+        <div class="mode-content mode-map">
+          <h1 id="mode-map-link">modes for map</h1>
+          <div class="mode-cards">
+            <div class="mode-card">
+              <img
+                src="https://staticdelivery.nexusmods.com/mods/2229/images/1886/1886-1571593868-2126325688.png"
+                alt=""
+                class="mode-card-img"
+              />
+              <a
+                href="https://www.nexusmods.com/starwarsbattlefront22017/mods/1886"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h2 class="mode-name">Night pack</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mode-content mode-game">
+          <h1 id="mode-game-link">modes for game</h1>
+          <div class="mode-cards">
+            <div class="mode-card">
+              <img
+                src="https://staticdelivery.nexusmods.com/mods/2229/images/1821/1821-1604248321-368005373.png"
+                alt=""
+                class="mode-card-img"
+              />
+              <a
+                href="https://www.nexusmods.com/starwarsbattlefront22017/mods/1821"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h2 class="mode-name">Health on Scope Screens</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mode-content mode-hero">
+          <h1 id="mode-hero-link">modes for hero</h1>
+          <div class="mode-cards">
+            <div class="mode-card">
+              <img
+                src="https://staticdelivery.nexusmods.com/mods/2229/images/4265/4265-1600269794-1248558024.png"
+                alt=""
+                class="mode-card-img"
+              />
+              <a
+                href="https://www.nexusmods.com/starwarsbattlefront22017/mods/4265"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h2 class="mode-name">Darth Nihilus</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mode-content mode-interface">
+          <h1 id="mode-interface-link">modes for interface</h1>
+          <div class="mode-cards">
+            <div class="mode-card">
+              <img
+                src="https://staticdelivery.nexusmods.com/mods/2229/images/1188/1188-1556918360-1546253906.png"
+                alt=""
+                class="mode-card-img"
+              />
+              <a
+                href="https://www.nexusmods.com/starwarsbattlefront22017/mods/1188"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h2 class="mode-name">New UI colors</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="settings container">
+      <div class="settings-set_content">
+        <h1>settings</h1>
+        <h4>Beta Version</h4>
+        <div class="settings-lang">
+          <button class="settings-btn">english</button>
+          <button class="settings-btn">русский</button>
+        </div>
+        <div class="settings-theme">
+          <button class="settings-btn settings-btn-dark">dark</button>
+          <button class="settings-btn settings-btn-light">light</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-links">
+        <button class="discord footer-link">
+          <img class="svg dis" src="images/icon/discord.svg" alt="" />
+          Our discord
+        </button>
+
+        <button class="nexus footer-link">
+          <img class="svg" src="images/icon/nexus.svg" alt="" />
+          nexus BF2
+        </button>
+      </div>
+    </footer>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="link.js"></script>
+  </body>
+</html>
