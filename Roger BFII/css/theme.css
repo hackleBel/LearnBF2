@@ -1,0 +1,11 @@
+.DarkTheme {
+  --bg-body: #000;
+  --bg-two-color: #1e1e1e;
+  --three-color: rgb(80, 0, 0);
+}
+
+.LightTheme{
+  --bg-body: #b1b1b1;
+  --bg-two-color: #1e1e1e;
+  --three-color: rgb(80, 0, 0);
+}
